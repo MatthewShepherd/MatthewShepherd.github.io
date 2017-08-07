@@ -1,3 +1,65 @@
 body {
-	background: blue;
+	max-width: 720px;
+	background: #3b1261;
+	color: #ff7400;
+	font-family: Courier;
+	margin: auto;
+	text-align: center;
+}
+
+#topy, #bottomy, #lefty, #righty {
+    background-image: url("pics/cryptogram pic.jpg"); 
+    position: fixed; 
+}
+
+#lefty, #righty {
+	top: 0;
+	bottom: 0;
+	width: 5%;
+}   
+
+#lefty {
+	left: 0;
+}
+
+#righty {
+	right: 0;
+}
+
+.headers {
+	font-family: Impact;
+}
+
+.pictures {
+	border-style: solid;
+	margin: auto;
+	max-width: 90.75%;
+}
+
+.mainContent {
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.tables {
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+#orderedList {
+	width: 40%;
+	margin: auto;
+}
+
+a {
+	color: black;
+}
+a:visited {
+	color: white;
+}
+
+@media screen and (max-width: 500px) {
+	#lefty, #righty, #topy, #bottomy {
+		width: initial;
+	}
 }
